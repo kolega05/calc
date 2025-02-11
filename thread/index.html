@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athens Climate</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style src="style.css"></style>
+</head>
+
+<body>
+    <center>
+        <h2>Temperature: Athens</h2>
+    </center>
+    <div class="Parent">
+        <div class="child1">
+            <center>
+                <canvas id="athensChart"></canvas>
+            </center>
+        </div>
+        <div class="child2">
+            <center>
+                <h3>Temperature</h3>
+
+                <!-- Таблица для отрисовки данных -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Average High (°C)</th>
+                            <th>Average Low (°C)</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="data-table-body"></tbody>
+                </table>
+            </center>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
